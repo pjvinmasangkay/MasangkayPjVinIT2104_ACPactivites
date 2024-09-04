@@ -1,19 +1,15 @@
-def get_music_info ():
-    
-    a = input ("Enter the year:")
-    b = input ("Enter the genre: ")
-    c = input ("Enter the album: ")
-    d = input ("Enter the song title: ")
-    e = input ("Enter the artist: ")
+year = input ("Enter the year:")
+genre = input ("Enter the genre: ")
+album = input ("Enter the album: ")
+title = input ("Enter the song title: ")
+artist = input ("Enter the artist: ")
 
-    print ("------------------")
-    print ("SONG DETAILS")
-    print ("------------------")
+print ("------------------")
+print ("SONG DETAILS")
+print ("------------------")
     
-    print(f"year released: {a}")
-    print(f"genre: {b}")
-    print(f"album: {c}")
-    print(f"title: {d}")
-    print(f"artist: {e}")
-    
-get_music_info()
+print(f"Year released: {year}")
+print(f"Genre: {genre}")
+print(f"Album: {album}")
+print(f"Title: {title}")
+print(f"Artist: {artist}")
