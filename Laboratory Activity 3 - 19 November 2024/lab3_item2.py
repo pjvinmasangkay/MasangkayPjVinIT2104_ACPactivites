@@ -11,12 +11,16 @@ def pnumber(number):
         return False
 
 def main():
-    num = int(input("Enter a number: "))
+    try:
+     num = int(input("Enter a number: "))
     
-    if pnumber(num):
-        print(f"{num} is a perfect number.")
-    else:
-        print(f"{num} is not a perfect number.")
+     if pnumber(num):
+         print(f"{num} is a perfect number.")
+     else:
+         print(f"{num} is not a perfect number.")
+         
+    except ValueError:
+        print("Please enter a valid integer.")
 
 if __name__ == "__main__":
     main()
