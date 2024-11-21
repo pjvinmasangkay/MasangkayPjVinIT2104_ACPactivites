@@ -32,7 +32,7 @@ def main():
     result = lib(roman_input)
 
     if result is not None:
-        print(f"The integer value of {roman_input} is {result}.")
+        print(f"The integer value of '{roman_input}' is {result}.")
     else:
         print("Please enter a valid Roman numeral.")
 
